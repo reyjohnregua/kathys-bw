@@ -43,19 +43,7 @@
         position: relative;
     }
 
-    .active::after
-    {
-        content: '';
-        position: absolute;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        height: 2px;
-        border-radius: 25%;
-        background-color: #8B2696;
-    }
-
-    /* .nav-link::after
+    .nav-link::after
     {
         content: '';
         position: absolute;
@@ -83,7 +71,7 @@
     .navbar-nav .nav-link.active
     {
         color: #FF0D80;
-    } */
+    }
 
 
     
