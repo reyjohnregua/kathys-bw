@@ -71,6 +71,14 @@
 
     /* <!--Home container start--> */
 
+    .carousel-container
+    {
+        background-image: url(photos/magenta-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
     .carousel-item
     {
         border-radius: 10%;
