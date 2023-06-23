@@ -68,3 +68,13 @@
     }
     
     /* <!--NAVIGATION CONTAINER END--> */
+
+    /* <!--Home container start--> */
+
+    
+    
+    .carousel-item
+    {
+        border-radius: 10%;
+        overflow: hidden;
+    }
