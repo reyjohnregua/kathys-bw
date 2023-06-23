@@ -78,6 +78,27 @@
         background-position: center;
         background-size: cover;
     }
+
+    .caption-container
+    {
+        margin-top: 3rem;
+    }
+
+    .caption-container h3
+    {
+        font-family: 'josefin sans';
+        font-weight: 600;
+        color: #FF0D80;
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+
+    .caption-container p
+    {
+        color: #8B2696;
+        font-weight: bold;
+        letter-spacing: 0.3rem;
+    }
     
     .carousel-item
     {
