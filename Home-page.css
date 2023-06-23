@@ -97,9 +97,9 @@
 
     .caption-container span
     {
-        font-size: 3rem;
+        font-size: 50px;
         font-weight: bold;
-        letter-spacing: 0.1rem;
+        letter-spacing: 10px;
     }
     
     .carousel-item
