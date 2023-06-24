@@ -30,7 +30,7 @@
         text-transform: uppercase;
         font-family: 'poppins';
         font-weight: 1000;
-        color: black;
+        color: #797979;
     }
 
     .navbar-nav .nav-item .nav-link:hover
@@ -100,6 +100,7 @@
         font-size: 50px;
         font-weight: bold;
         letter-spacing: 10px;
+        color: #666262;
     }
     
     .carousel-item
@@ -112,6 +113,8 @@
 
     /* <!--About container start--> */
 
+    
+
     .logo-container img
     {
         width: 100%;
@@ -120,3 +123,29 @@
     }
 
     /* <!--About container end--> */
+
+    /* <!--Responsive Css--> */
+
+    @media only screen and (max-width: 600px)
+    {
+        .caption-container span
+        {
+            font-size: 25px;
+            font-weight: bold;
+            color: #666262;
+            letter-spacing: 2px;
+        }
+    }
+
+    @media only screen and (max-width: 1200px)
+    {
+        .caption-container span
+        {
+            font-size: 30px;
+            font-weight: bold;
+            color: #666262;
+            letter-spacing: 4px;
+        }
+    }
+
+    
