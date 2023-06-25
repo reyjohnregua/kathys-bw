@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+    *
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+    *
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    /* <!--NAVIGATION CONTAINER START--> */
+
+    .nav-container .navbar-brand .kathys-text 
+    {
+        font-family: 'josefin sans';
+        text-transform: uppercase;
+        color: #FF0D80;
+    }
+
+    .nav-container .bw-text
+    {
+        font-family: 'josefin sans';
+        text-transform: uppercase;
+        color: #8B2696;
+        font-weight: 1000;
+        letter-spacing: 2px;
+    }
+
+    .navbar-nav .nav-item .nav-link
+    {
+        text-transform: uppercase;
+        font-family: 'poppins';
+        font-weight: 1000;
+        color: #797979;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover
+    {
+        color: #FF0D80;
+    }
+
+    .nav-link
+    {
+        position: relative;
+    }
+
+    .nav-link::after
+    {
+        content: '';
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        border-radius: 25%;
+        background-color: #8B2696;
+    }
+
+    .nav-link::after
+    {
+        transform: scale(0,1);
+        transform-origin: 0 100%;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::after
+    {
+        transform: scale(1,1);
+    }
+    
+    /* <!--NAVIGATION CONTAINER END--> */
+
+/* <!--Home container start--> */
+
+.carousel-container
+{
+    background-image: url(../photos/magenta-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.caption-container h3
+{
+    font-family: 'josefin sans';
+    font-weight: 600;
+    color: #FF0D80;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.caption-container p
+{
+    color: #8B2696;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.caption-container span
+{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #666262;
+}
+
+.carousel-item
+{
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+/* <!--Home container end--> */

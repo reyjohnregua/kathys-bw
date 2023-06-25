@@ -1,0 +1,35 @@
+    /* <!--Responsive Css--> */
+
+    @media only screen and (max-width: 600px)
+    {
+        .caption-container span
+        {
+            font-size: 25px;
+            font-weight: bold;
+            color: #666262;
+            letter-spacing: 2px;
+        }
+
+        .carousel-image
+        {
+            margin-top: 20px;
+        }
+    }
+
+    @media only screen and (max-width: 1200px)
+    {
+        .caption-container span
+        {
+            font-size: 30px;
+            font-weight: bold;
+            color: #666262;
+            letter-spacing: 4px;
+        }
+
+        .carousel-image
+        {
+            margin-top: 20px;
+        }
+    }
+
+    
