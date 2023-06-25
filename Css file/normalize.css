@@ -95,7 +95,7 @@
 
 /* <!--Header caption--> */
 
-/* <!--Home container start--> */
+/* <!--Home container-1 Start--> */
 
 .carousel-container
 {
@@ -135,7 +135,28 @@
     overflow: hidden;
 }
 
-/* <!--Home container end--> */
+/* <!--Home container-1 Start--> */
+
+/* <!--Services start--> */
+
+.services-container
+{
+    margin-top: 10px;
+}
+
+.services-container .service-title
+{
+    text-transform: uppercase;
+    color:#8B2696;
+}
+
+.prices
+{
+    font-size: 1rem;
+    color: #797979;
+}
+
+/* <!--Services end--> */
 
 /* <!--Footer start--> */
 
