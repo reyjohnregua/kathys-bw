@@ -137,6 +137,29 @@
 
 /* <!--Home container-1 Start--> */
 
+/* <!--About content start--> */
+
+.about-container
+{
+    margin: 20px 0;
+}
+
+.our-story
+{
+    margin-top: 10vh;
+}
+
+.our-story p
+{
+    margin-top: 40px;
+    color: #434343;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+/* <!--About content end--> */
+
 /* <!--Services start--> */
 
 .services-container
@@ -207,8 +230,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20vh;
+    height: 15vh;
     justify-content: space-evenly;
+    background-color: #fff3ff;
 }
 
 .footer-container .icons-container .social-media-icons

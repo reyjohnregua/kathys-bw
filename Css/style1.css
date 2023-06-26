@@ -19,6 +19,21 @@
         {
             margin-bottom: 20px;
         }
+
+        .logo-img
+        {
+            display: none;
+        }
+
+        .our-story
+        {
+            margin-top: 5vh;
+        }
+
+        .our-story p
+        {
+            margin-top: 20px;
+        }
     }
 
     @media only screen and (max-width: 1200px)
