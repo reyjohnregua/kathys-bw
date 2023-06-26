@@ -158,6 +158,48 @@
 
 /* <!--Services end--> */
 
+/* <!--Contact start--> */
+
+.contact-container
+{
+    margin-top: 50px;
+}
+
+.contact-container h4
+{
+    color: #434343;
+}
+
+.contact-container h4 span
+{
+    color: #434343;
+    font-weight: 350;
+}
+
+.contact-container p
+{
+    color: #434343;
+    font-size: 18px;
+}
+
+.contact-container .row .contact-details
+{
+    border: 1px solid black;
+    height: 30vh;
+}
+
+.map-header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    text-transform: uppercase;
+    color: #797979;
+}
+
+/* <!--Contact end--> */
+
 /* <!--Footer start--> */
 
 .footer-container
